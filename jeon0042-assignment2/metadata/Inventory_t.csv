@@ -1,0 +1,6 @@
+table_catalog,table_schema,table_name,column_name,ordinal_position,is_nullable,data_type,character_maximum_length,character_octet_length,numeric_precision,numeric_precision_radix,numeric_scale,udt_catalog,udt_schema,udt_name,dtd_identifier,is_self_referencing,is_identity,is_generated,is_updatable,Description
+GameStatistics,public,inventory_t,inven_id,1,NO,character,8,32,,,,GameStatistics,pg_catalog,bpchar,1,NO,NO,NEVER,YES,Inventory Number (IN000000)
+GameStatistics,public,inventory_t,item_id,2,NO,character,6,32,,,,GameStatistics,pg_catalog,bpchar,2,NO,NO,NEVER,YES,Item Number (Initial / 5 char)
+GameStatistics,public,inventory_t,inven_money,3,NO,integer,,,32,2,0,GameStatistics,pg_catalog,int4,3,NO,NO,NEVER,YES,money belong to inventory
+GameStatistics,public,inventory_t,inven_size,4,YES,character,2,8,,,,GameStatistics,pg_catalog,bpchar,4,NO,NO,NEVER,YES,item stack to inventory (max:20)
+GameStatistics,public,inventory_t,inven_transactions,5,NO,boolean,,,,,,GameStatistics,pg_catalog,bool,5,NO,NO,NEVER,YES,True / False

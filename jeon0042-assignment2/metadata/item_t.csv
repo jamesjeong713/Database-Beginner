@@ -1,0 +1,9 @@
+table_catalog,table_schema,table_name,column_name,ordinal_position,is_nullable,data_type,character_maximum_length,character_octet_length,udt_catalog,udt_schema,udt_name,dtd_identifier,is_self_referencing,is_identity,is_generated,is_updatable,Description
+GameStatistics,public,item_t,item_id,1,NO,character,6,24,GameStatistics,pg_catalog,bpchar,1,NO,NO,NEVER,YES,Item Number (I00000)
+GameStatistics,public,item_t,item_name,2,NO,character varying,64,256,GameStatistics,pg_catalog,varchar,2,NO,NO,NEVER,YES,Item Name
+GameStatistics,public,item_t,item_disassemble,3,NO,boolean,,,GameStatistics,pg_catalog,bool,3,NO,NO,NEVER,YES,Is it possible to be disaseemble?
+GameStatistics,public,item_t,item_description,4,YES,character varying,255,1020,GameStatistics,pg_catalog,varchar,4,NO,NO,NEVER,YES,description about item
+GameStatistics,public,item_t,item_standprice,5,YES,character varying,8,32,GameStatistics,pg_catalog,varchar,5,NO,NO,NEVER,YES,basic value of item
+GameStatistics,public,item_t,item_size,6,YES,character,1,4,GameStatistics,pg_catalog,bpchar,6,NO,NO,NEVER,YES,potion can be 1 size. Weapon or armor can be 2~3 size.
+GameStatistics,public,item_t,item_code,7,NO,character varying,10,40,GameStatistics,pg_catalog,varchar,7,NO,NO,NEVER,YES,Item code (potion / weapon / armor)
+GameStatistics,public,item_t,item_part,8,YES,character varying,10,40,GameStatistics,pg_catalog,varchar,8,NO,NO,NEVER,YES,"in weapon or armor, it should be hand / chest / leg"

@@ -1,0 +1,8 @@
+table_catalog,table_schema,table_name,column_name,ordinal_position,is_nullable,data_type,character_maximum_length,character_octet_length,udt_catalog,udt_schema,udt_name,dtd_identifier,is_self_referencing,is_identity,is_generated,is_updatable,Description
+GameStatistics,public,character_t,char_id,1,NO,character,8,32,GameStatistics,pg_catalog,bpchar,1,NO,NO,NEVER,YES,Character Number (Initial / Nationality / Number)
+GameStatistics,public,character_t,char_name,2,NO,character varying,64,256,GameStatistics,pg_catalog,varchar,2,NO,NO,NEVER,YES,Character Name
+GameStatistics,public,character_t,char_job,3,NO,character,3,12,GameStatistics,pg_catalog,bpchar,3,NO,NO,NEVER,YES,Character code of job
+GameStatistics,public,character_t,char_gender,4,NO,boolean,,,GameStatistics,pg_catalog,bool,4,NO,NO,NEVER,YES,True(female) / False(male)
+GameStatistics,public,character_t,user_id,5,NO,character,6,24,GameStatistics,pg_catalog,bpchar,5,NO,NO,NEVER,YES,User Number (User / Nationality / Num)
+GameStatistics,public,character_t,level_id,6,NO,character,6,24,GameStatistics,pg_catalog,bpchar,6,NO,NO,NEVER,YES,Level Number (Initial / Nationality / Number)
+GameStatistics,public,character_t,inven_id,7,NO,character,8,32,GameStatistics,pg_catalog,bpchar,7,NO,NO,NEVER,YES,Inventory Number (IN000000)

@@ -1,0 +1,5 @@
+table_catalog,table_schema,table_name,column_name,ordinal_position,is_nullable,data_type,character_maximum_length,character_octet_length,datetime_precision,udt_catalog,udt_schema,udt_name,dtd_identifier,is_self_referencing,is_identity,is_generated,is_updatable,Description
+GameStatistics,public,level_t,level_id,1,NO,character,6,24,,GameStatistics,pg_catalog,bpchar,1,NO,NO,NEVER,YES,Level Number (Initial / Nationlity / Number)
+GameStatistics,public,level_t,level_value,2,NO,character,5,20,,GameStatistics,pg_catalog,bpchar,2,NO,NO,NEVER,YES,Level Values of Character
+GameStatistics,public,level_t,level_datestart,3,YES,timestamp without time zone,,,6,GameStatistics,pg_catalog,timestamp,3,NO,NO,NEVER,YES,"Whenever player(especially, character) start to play the game, it counts"
+GameStatistics,public,level_t,level_dateend,4,YES,timestamp without time zone,,,6,GameStatistics,pg_catalog,timestamp,4,NO,NO,NEVER,YES,"Whenever player finish to play the game, it counts"

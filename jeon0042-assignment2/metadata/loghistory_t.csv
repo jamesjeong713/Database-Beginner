@@ -1,0 +1,6 @@
+table_catalog,table_schema,table_name,column_name,ordinal_position,column_default,is_nullable,data_type,character_maximum_length,character_octet_length,datetime_precision,udt_catalog,udt_schema,udt_name,dtd_identifier,is_self_referencing,is_identity,is_generated,generation_expression,is_updatable,Description
+GameStatistics,public,loghistory_t,log_id,1,,NO,character,8,32,,GameStatistics,pg_catalog,bpchar,1,NO,NO,NEVER,,YES,Log history nuymber (two Initials / numbers)
+GameStatistics,public,loghistory_t,char_id,2,,NO,character,8,32,,GameStatistics,pg_catalog,bpchar,2,NO,NO,NEVER,,YES,"to match character information, add chracter id from chracter table"
+GameStatistics,public,loghistory_t,inven_id,3,,NO,character,8,32,,GameStatistics,pg_catalog,bpchar,3,NO,NO,NEVER,,YES,"to match inventory information,  add the column from inventory"
+GameStatistics,public,loghistory_t,log_intime,4,,YES,timestamp without time zone,,,6,GameStatistics,pg_catalog,timestamp,4,NO,NO,NEVER,,YES,"whenever player login as user(not character), it counts"
+GameStatistics,public,loghistory_t,log_outtime,5,,YES,timestamp without time zone,,,6,GameStatistics,pg_catalog,timestamp,5,NO,NO,NEVER,,YES,"whenever player logout as user(not character), it counts"

@@ -1,0 +1,4 @@
+table_catalog,table_schema,table_name,column_name,ordinal_position,is_nullable,data_type,character_maximum_length,character_octet_length,udt_catalog,udt_schema,udt_name,dtd_identifier,is_self_referencing,is_identity,is_generated,is_updatable,Description
+GameStatistics,public,user_t,user_id,1,NO,character,6,24,GameStatistics,pg_catalog,bpchar,1,NO,NO,NEVER,YES,User Number (User / Nationality / Num)
+GameStatistics,public,user_t,user_name,2,NO,character varying,64,256,GameStatistics,pg_catalog,varchar,2,NO,NO,NEVER,YES,User Name 
+GameStatistics,public,user_t,user_password,3,NO,character varying,64,256,GameStatistics,pg_catalog,varchar,3,NO,NO,NEVER,YES,Password of User Name
